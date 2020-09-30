@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		1A223A95252490B700418E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A93252490B700418E16 /* Main.storyboard */; };
 		1A223A97252490B900418E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A96252490B900418E16 /* Assets.xcassets */; };
 		1A223A9A252490B900418E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A98252490B900418E16 /* LaunchScreen.storyboard */; };
+		1A223ACE2524A72600418E16 /* KakaoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223ACD2524A72600418E16 /* KakaoInfo.swift */; };
+		5CF00CBFA29971704DB1031B /* Pods_KakaoLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499413E73C511CD94C0423F3 /* Pods_KakaoLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		066FA96140A5FDDA65DDF3EE /* Pods-KakaoLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoLogin.release.xcconfig"; path = "Target Support Files/Pods-KakaoLogin/Pods-KakaoLogin.release.xcconfig"; sourceTree = "<group>"; };
 		1A223A8A252490B700418E16 /* KakaoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A223A8D252490B700418E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A223A8F252490B700418E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +46,9 @@
 		1A223A9B252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A223AA0252490B900418E16 /* KakaoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A223AAB252490B900418E16 /* KakaoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A223ACD2524A72600418E16 /* KakaoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoInfo.swift; sourceTree = "<group>"; };
+		499413E73C511CD94C0423F3 /* Pods_KakaoLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KakaoLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45195652CA1A3106531BECE /* Pods-KakaoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KakaoLogin.debug.xcconfig"; path = "Target Support Files/Pods-KakaoLogin/Pods-KakaoLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF00CBFA29971704DB1031B /* Pods_KakaoLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,11 +77,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18665F8FCDAA0DB3208136FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499413E73C511CD94C0423F3 /* Pods_KakaoLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A223A81252490B700418E16 = {
 			isa = PBXGroup;
 			children = (
 				1A223A8C252490B700418E16 /* KakaoLogin */,
 				1A223A8B252490B700418E16 /* Products */,
+				31206EE1DF88491C90F9EAB3 /* Pods */,
+				18665F8FCDAA0DB3208136FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +115,18 @@
 				1A223A96252490B900418E16 /* Assets.xcassets */,
 				1A223A98252490B900418E16 /* LaunchScreen.storyboard */,
 				1A223A9B252490B900418E16 /* Info.plist */,
+				1A223ACD2524A72600418E16 /* KakaoInfo.swift */,
 			);
 			path = KakaoLogin;
+			sourceTree = "<group>";
+		};
+		31206EE1DF88491C90F9EAB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B45195652CA1A3106531BECE /* Pods-KakaoLogin.debug.xcconfig */,
+				066FA96140A5FDDA65DDF3EE /* Pods-KakaoLogin.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A223AB4252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLogin" */;
 			buildPhases = (
+				B81A808CBF11880F5314D8F0 /* [CP] Check Pods Manifest.lock */,
 				1A223A86252490B700418E16 /* Sources */,
 				1A223A87252490B700418E16 /* Frameworks */,
 				1A223A88252490B700418E16 /* Resources */,
+				93FB5488514793A753197D77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,12 +256,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93FB5488514793A753197D77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoLogin/Pods-KakaoLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KakaoLogin/Pods-KakaoLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KakaoLogin/Pods-KakaoLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81A808CBF11880F5314D8F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KakaoLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A223A86252490B700418E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A223A92252490B700418E16 /* ViewController.swift in Sources */,
+				1A223ACE2524A72600418E16 /* KakaoInfo.swift in Sources */,
 				1A223A8E252490B700418E16 /* AppDelegate.swift in Sources */,
 				1A223A90252490B700418E16 /* SceneDelegate.swift in Sources */,
 			);
@@ -405,6 +477,7 @@
 		};
 		1A223AB5252490B900418E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45195652CA1A3106531BECE /* Pods-KakaoLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +497,7 @@
 		};
 		1A223AB6252490B900418E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066FA96140A5FDDA65DDF3EE /* Pods-KakaoLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
