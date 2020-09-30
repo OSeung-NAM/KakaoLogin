@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A223A8E252490B700418E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223A8D252490B700418E16 /* AppDelegate.swift */; };
+		1A223A90252490B700418E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223A8F252490B700418E16 /* SceneDelegate.swift */; };
+		1A223A92252490B700418E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223A91252490B700418E16 /* ViewController.swift */; };
+		1A223A95252490B700418E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A93252490B700418E16 /* Main.storyboard */; };
+		1A223A97252490B900418E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A96252490B900418E16 /* Assets.xcassets */; };
+		1A223A9A252490B900418E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A98252490B900418E16 /* LaunchScreen.storyboard */; };
+		1A223AA5252490B900418E16 /* KakaoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223AA4252490B900418E16 /* KakaoLoginTests.swift */; };
+		1A223AB0252490B900418E16 /* KakaoLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A223AA1252490B900418E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A223A82252490B700418E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A223A89252490B700418E16;
+			remoteInfo = KakaoLogin;
+		};
+		1A223AAC252490B900418E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A223A82252490B700418E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A223A89252490B700418E16;
+			remoteInfo = KakaoLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A223A8A252490B700418E16 /* KakaoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A223A8D252490B700418E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A223A8F252490B700418E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A223A91252490B700418E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A223A94252490B700418E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A223A96252490B900418E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A223A99252490B900418E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A223A9B252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A223AA0252490B900418E16 /* KakaoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A223AA4252490B900418E16 /* KakaoLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginTests.swift; sourceTree = "<group>"; };
+		1A223AA6252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A223AAB252490B900418E16 /* KakaoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginUITests.swift; sourceTree = "<group>"; };
+		1A223AB1252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A223A87252490B700418E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223A9D252490B900418E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223AA8252490B900418E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A223A81252490B700418E16 = {
+			isa = PBXGroup;
+			children = (
+				1A223A8C252490B700418E16 /* KakaoLogin */,
+				1A223AA3252490B900418E16 /* KakaoLoginTests */,
+				1A223AAE252490B900418E16 /* KakaoLoginUITests */,
+				1A223A8B252490B700418E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A223A8B252490B700418E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A223A8A252490B700418E16 /* KakaoLogin.app */,
+				1A223AA0252490B900418E16 /* KakaoLoginTests.xctest */,
+				1A223AAB252490B900418E16 /* KakaoLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A223A8C252490B700418E16 /* KakaoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				1A223A8D252490B700418E16 /* AppDelegate.swift */,
+				1A223A8F252490B700418E16 /* SceneDelegate.swift */,
+				1A223A91252490B700418E16 /* ViewController.swift */,
+				1A223A93252490B700418E16 /* Main.storyboard */,
+				1A223A96252490B900418E16 /* Assets.xcassets */,
+				1A223A98252490B900418E16 /* LaunchScreen.storyboard */,
+				1A223A9B252490B900418E16 /* Info.plist */,
+			);
+			path = KakaoLogin;
+			sourceTree = "<group>";
+		};
+		1A223AA3252490B900418E16 /* KakaoLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A223AA4252490B900418E16 /* KakaoLoginTests.swift */,
+				1A223AA6252490B900418E16 /* Info.plist */,
+			);
+			path = KakaoLoginTests;
+			sourceTree = "<group>";
+		};
+		1A223AAE252490B900418E16 /* KakaoLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */,
+				1A223AB1252490B900418E16 /* Info.plist */,
+			);
+			path = KakaoLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A223A89252490B700418E16 /* KakaoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A223AB4252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLogin" */;
+			buildPhases = (
+				1A223A86252490B700418E16 /* Sources */,
+				1A223A87252490B700418E16 /* Frameworks */,
+				1A223A88252490B700418E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaoLogin;
+			productName = KakaoLogin;
+			productReference = 1A223A8A252490B700418E16 /* KakaoLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A223A9F252490B900418E16 /* KakaoLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A223AB7252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLoginTests" */;
+			buildPhases = (
+				1A223A9C252490B900418E16 /* Sources */,
+				1A223A9D252490B900418E16 /* Frameworks */,
+				1A223A9E252490B900418E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A223AA2252490B900418E16 /* PBXTargetDependency */,
+			);
+			name = KakaoLoginTests;
+			productName = KakaoLoginTests;
+			productReference = 1A223AA0252490B900418E16 /* KakaoLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A223AAA252490B900418E16 /* KakaoLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A223ABA252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLoginUITests" */;
+			buildPhases = (
+				1A223AA7252490B900418E16 /* Sources */,
+				1A223AA8252490B900418E16 /* Frameworks */,
+				1A223AA9252490B900418E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A223AAD252490B900418E16 /* PBXTargetDependency */,
+			);
+			name = KakaoLoginUITests;
+			productName = KakaoLoginUITests;
+			productReference = 1A223AAB252490B900418E16 /* KakaoLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A223A82252490B700418E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1A223A89252490B700418E16 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1A223A9F252490B900418E16 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1A223A89252490B700418E16;
+					};
+					1A223AAA252490B900418E16 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1A223A89252490B700418E16;
+					};
+				};
+			};
+			buildConfigurationList = 1A223A85252490B700418E16 /* Build configuration list for PBXProject "KakaoLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A223A81252490B700418E16;
+			productRefGroup = 1A223A8B252490B700418E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A223A89252490B700418E16 /* KakaoLogin */,
+				1A223A9F252490B900418E16 /* KakaoLoginTests */,
+				1A223AAA252490B900418E16 /* KakaoLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A223A88252490B700418E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A223A9A252490B900418E16 /* LaunchScreen.storyboard in Resources */,
+				1A223A97252490B900418E16 /* Assets.xcassets in Resources */,
+				1A223A95252490B700418E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223A9E252490B900418E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223AA9252490B900418E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A223A86252490B700418E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A223A92252490B700418E16 /* ViewController.swift in Sources */,
+				1A223A8E252490B700418E16 /* AppDelegate.swift in Sources */,
+				1A223A90252490B700418E16 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223A9C252490B900418E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A223AA5252490B900418E16 /* KakaoLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A223AA7252490B900418E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A223AB0252490B900418E16 /* KakaoLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A223AA2252490B900418E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A223A89252490B700418E16 /* KakaoLogin */;
+			targetProxy = 1A223AA1252490B900418E16 /* PBXContainerItemProxy */;
+		};
+		1A223AAD252490B900418E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A223A89252490B700418E16 /* KakaoLogin */;
+			targetProxy = 1A223AAC252490B900418E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A223A93252490B700418E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A223A94252490B700418E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A223A98252490B900418E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A223A99252490B900418E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A223AB2252490B900418E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A223AB3252490B900418E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A223AB5252490B900418E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A223AB6252490B900418E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A223AB8252490B900418E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoLogin.app/KakaoLogin";
+			};
+			name = Debug;
+		};
+		1A223AB9252490B900418E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLoginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KakaoLogin.app/KakaoLogin";
+			};
+			name = Release;
+		};
+		1A223ABB252490B900418E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakaoLogin;
+			};
+			name = Debug;
+		};
+		1A223ABC252490B900418E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V844U2A3G7;
+				INFOPLIST_FILE = KakaoLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.oseung.KakaoLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KakaoLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A223A85252490B700418E16 /* Build configuration list for PBXProject "KakaoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A223AB2252490B900418E16 /* Debug */,
+				1A223AB3252490B900418E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A223AB4252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A223AB5252490B900418E16 /* Debug */,
+				1A223AB6252490B900418E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A223AB7252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A223AB8252490B900418E16 /* Debug */,
+				1A223AB9252490B900418E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A223ABA252490B900418E16 /* Build configuration list for PBXNativeTarget "KakaoLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A223ABB252490B900418E16 /* Debug */,
+				1A223ABC252490B900418E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A223A82252490B700418E16 /* Project object */;
+}
