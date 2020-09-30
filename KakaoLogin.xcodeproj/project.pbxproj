@@ -13,8 +13,6 @@
 		1A223A95252490B700418E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A93252490B700418E16 /* Main.storyboard */; };
 		1A223A97252490B900418E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A96252490B900418E16 /* Assets.xcassets */; };
 		1A223A9A252490B900418E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A223A98252490B900418E16 /* LaunchScreen.storyboard */; };
-		1A223AA5252490B900418E16 /* KakaoLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223AA4252490B900418E16 /* KakaoLoginTests.swift */; };
-		1A223AB0252490B900418E16 /* KakaoLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,7 @@
 		1A223A99252490B900418E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A223A9B252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A223AA0252490B900418E16 /* KakaoLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A223AA4252490B900418E16 /* KakaoLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginTests.swift; sourceTree = "<group>"; };
-		1A223AA6252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A223AAB252490B900418E16 /* KakaoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KakaoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoLoginUITests.swift; sourceTree = "<group>"; };
-		1A223AB1252490B900418E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				1A223A8C252490B700418E16 /* KakaoLogin */,
-				1A223AA3252490B900418E16 /* KakaoLoginTests */,
-				1A223AAE252490B900418E16 /* KakaoLoginUITests */,
 				1A223A8B252490B700418E16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				1A223A9B252490B900418E16 /* Info.plist */,
 			);
 			path = KakaoLogin;
-			sourceTree = "<group>";
-		};
-		1A223AA3252490B900418E16 /* KakaoLoginTests */ = {
-			isa = PBXGroup;
-			children = (
-				1A223AA4252490B900418E16 /* KakaoLoginTests.swift */,
-				1A223AA6252490B900418E16 /* Info.plist */,
-			);
-			path = KakaoLoginTests;
-			sourceTree = "<group>";
-		};
-		1A223AAE252490B900418E16 /* KakaoLoginUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1A223AAF252490B900418E16 /* KakaoLoginUITests.swift */,
-				1A223AB1252490B900418E16 /* Info.plist */,
-			);
-			path = KakaoLoginUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A223AA5252490B900418E16 /* KakaoLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A223AB0252490B900418E16 /* KakaoLoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
